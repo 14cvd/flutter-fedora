@@ -8,7 +8,6 @@ import 'package:flutter_fedora/screens/favorite_screen.dart';
 import 'package:flutter_fedora/screens/location_screen.dart';
 import 'package:flutter_fedora/screens/my_order_screen.dart';
 import 'package:provider/provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 import '../providers/theme_manager_provider.dart';
 import 'edit_profile_screen.dart';
@@ -22,8 +21,6 @@ class ProfileScreen extends StatefulWidget {
 
 class _ProfileScreenState extends State<ProfileScreen> {
   final TextEditingController imgPathController = TextEditingController();
-
-  
 
   String _selectedLanguage = 'English';
 

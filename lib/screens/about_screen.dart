@@ -6,9 +6,11 @@ class AboutScreen extends StatelessWidget {
   final List<List<String>> teamMembers = [
     ['Ragsana', 'assets/image/ragsana.png'],
     ['Cavid', 'assets/image/cavid.png'],
-    ['Murad', 'assets/image/murad.jpeg'],
+    ['Murad', 'assets/image/murad.png'],
     ['Polad', 'assets/image/polad.jpg'],
   ];
+
+  AboutScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
